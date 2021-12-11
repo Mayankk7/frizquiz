@@ -1,9 +1,7 @@
 
-   [
+ [
       {
         "category": "Vehicles",
-        "type": "multiple",
-        "difficulty": "medium",
         "question": "Which animal features on the logo for Abarth, the motorsport division of Fiat?",
         "correct_answer": "Scorpion",
         "options": [
@@ -15,8 +13,6 @@
       },
       {
         "category": "Entertainment: Music",
-        "type": "multiple",
-        "difficulty": "hard",
         "question": "Which member of the English band &quot;The xx&quot; released their solo album &quot;In Colour&quot; in 2015?",
         "correct_answer": "Jamie xx",
         "options": [
@@ -28,8 +24,6 @@
       },
       {
         "category": "History",
-        "type": "boolean",
-        "difficulty": "medium",
         "question": "&quot;I disapprove of what you say, but I will defend to the death your right to say it&quot; is a quote from French philosopher Voltaire.",
         "correct_answer": "False",
         "options": [
@@ -39,8 +33,6 @@
       },
       {
         "category": "Entertainment: Music",
-        "type": "multiple",
-        "difficulty": "medium",
         "question": "Which of these is NOT a song on The Beatles&#039; 1968 self titled album, also known as the White album?",
         "correct_answer": "Being For The Benefit Of Mr. Kite!",
         "options": [
@@ -52,8 +44,6 @@
       },
       {
         "category": "General Knowledge",
-        "type": "multiple",
-        "difficulty": "medium",
         "question": "What is the romanized Japanese word for &quot;university&quot;?",
         "correct_answer": "Daigaku",
         "options": [
@@ -65,8 +55,6 @@
       },
       {
         "category": "General Knowledge",
-        "type": "boolean",
-        "difficulty": "medium",
         "question": "The French word to travel is &quot;Travail&quot;",
         "correct_answer": "False",
         "options": [
@@ -76,8 +64,6 @@
       },
       {
         "category": "Entertainment: Video Games",
-        "type": "multiple",
-        "difficulty": "medium",
         "question": "The creator of the Touhou Project series is:",
         "correct_answer": "ZUN",
         "options": [
@@ -89,8 +75,6 @@
       },
       {
         "category": "Entertainment: Video Games",
-        "type": "multiple",
-        "difficulty": "hard",
         "question": "&quot;Gimmick!&quot; is a Japanese Famicom game that uses a sound chip expansion in the cartridge. What is it called?",
         "correct_answer": "FME-7",
         "options": [
@@ -102,8 +86,6 @@
       },
       {
         "category": "Entertainment: Film",
-        "type": "multiple",
-        "difficulty": "medium",
         "question": "Who directed the movie &quot;Alien&quot;?",
         "correct_answer": "Ridley Scott",
         "options": [
@@ -115,8 +97,6 @@
       },
       {
         "category": "Entertainment: Japanese Anime & Manga",
-        "type": "multiple",
-        "difficulty": "medium",
         "question": "What colour hair does the main character of the Yu-Gi-Oh! original anime series have?",
         "correct_answer": "Red, black and yellow",
         "options": [
