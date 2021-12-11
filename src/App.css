@@ -49,6 +49,9 @@ button{
   background:white!important;
 }
 
+.outline::selection{
+  border:5px solid greenyellow!important;
+}
 button:hover{
   outline:black!important;
 }

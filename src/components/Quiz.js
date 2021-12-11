@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { useEffect } from 'react/cjs/react.development';
 import data from "../data.json";
 const Quiz = ({ score, setscore }) => {
 
@@ -16,9 +15,9 @@ const Quiz = ({ score, setscore }) => {
     //next button functionality
     const nextques = () => {
         setselect(false);
-        correct ? document.getElementById("btn" + `${index}`).classList.remove("btn-success") :
-            document.getElementById("btn" + `${index}`).classList.remove("btn-danger");
-        if (currentques == 9) {
+        correct ? document.getElementById("btn"+index).classList.remove("btn-success") :
+            document.getElementById("btn"+index).classList.remove("btn-danger");
+        if (currentques === 9) {
             localStorage.setItem('score', score);
             window.location.href = "/result"
             return;
@@ -34,7 +33,7 @@ const Quiz = ({ score, setscore }) => {
         console.log(selectedoption);
 
         //If no option is selected
-        if (index == 1000) {
+        if (index === 1000) {
             alert("Please Select an option");
             return;
         }
@@ -42,7 +41,7 @@ const Quiz = ({ score, setscore }) => {
         setselect(true);
 
         //If incase it doesnt select anything
-        if (selectedoption == "") {
+        if (selectedoption === "") {
             alert("Select anything")
             return
         }
@@ -50,16 +49,16 @@ const Quiz = ({ score, setscore }) => {
         setanswered(true);
         
         //checking answers
-        if (selectedoption == data[currentques].correct_answer) {
+        if (selectedoption === data[currentques].correct_answer) {
             setcorrect(true);
             console.log("Correct");
             setscore(score + 1);
             console.log(score);
-            document.getElementById("btn" + `${index}`).classList.add("btn-success");
+            document.getElementById("btn" + index).classList.add("btn-success");
         } else {
             setcorrect(false)
             console.log("Incorrect Selection");
-            document.getElementById("btn" + `${index}`).classList.add("btn-danger");
+            document.getElementById("btn" + index).classList.add("btn-danger");
         }
         const next = setInterval(nextques, 1000)
         clearInterval(next);
@@ -79,7 +78,7 @@ const Quiz = ({ score, setscore }) => {
                 <div class="card-body ">
                     {data[currentques].options.map((option, idx) => {
                         return (
-                            <button className="btn mt-2" id={"btn" + `${idx}`} onClick={() => {
+                            <button className="btn outline mt-2" id={"btn" + idx} onClick={() => {
                                 selectedoption = option;
                                 setindex(idx)
                             }}>{option}</button>
