@@ -5,12 +5,11 @@
 }
 
 body{
-  background: url(./bg.png);
-  height:100vh;
+  background: url(./bg.jpg);
+  height:120vh;
   background-size: cover;
   background-position: fixed;
   background-repeat: no-repeat;
-  overflow:hidden;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -27,7 +26,7 @@ h1{
 .card{
   background:  #9FCECE;
   border:2px solid black!important;
-  height:50vh!important;
+
 }
 
 .card-body{
