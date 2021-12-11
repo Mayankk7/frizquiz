@@ -4,7 +4,7 @@ const Result = () => {
     const name = localStorage.getItem('name');
     const scored = localStorage.getItem('score');
     return (
-        <div>
+        <div className='mt-5'>
             <div className='mt-5'>
             <h1>Hey {name}, Your Score is :</h1>
             <div className='mt-5'>

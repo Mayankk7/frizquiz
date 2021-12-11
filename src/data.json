@@ -13,7 +13,7 @@
       },
       {
         "category": "Entertainment: Music",
-        "question": "Which member of the English band &quot;The xx&quot; released their solo album &quot;In Colour&quot; in 2015?",
+        "question": "Which member of the English band &quot;The xx released their solo album In Colour in 2015?",
         "correct_answer": "Jamie xx",
         "options": [
           "Romy Madley Croft",
@@ -24,7 +24,7 @@
       },
       {
         "category": "History",
-        "question": "&quot;I disapprove of what you say, but I will defend to the death your right to say it&quot; is a quote from French philosopher Voltaire.",
+        "question": "I disapprove of what you say, but I will defend to the death your right to say it is a quote from French philosopher Voltaire.",
         "correct_answer": "False",
         "options": [
           "True",
@@ -33,18 +33,18 @@
       },
       {
         "category": "Entertainment: Music",
-        "question": "Which of these is NOT a song on The Beatles&#039; 1968 self titled album, also known as the White album?",
+        "question": "Which of these is NOT a song on The Beatles 1968 self titled album, also known as the White album?",
         "correct_answer": "Being For The Benefit Of Mr. Kite!",
         "options": [
-          "Why Don&#039;t We Do It in the Road?",
-          "Everybody&#039;s Got Something to Hide Except Me and My Monkey",
+          "Why Dont We Do It in the Road?",
+          "Everybodys Got Something to Hide Except Me and My Monkey",
           "The Continuing Story of Bungalow Bill",
           "Being For The Benefit Of Mr. Kite!"
         ]
       },
       {
         "category": "General Knowledge",
-        "question": "What is the romanized Japanese word for &quot;university&quot;?",
+        "question": "What is the romanized Japanese word for university?",
         "correct_answer": "Daigaku",
         "options": [
           "Toshokan",
@@ -55,7 +55,7 @@
       },
       {
         "category": "General Knowledge",
-        "question": "The French word to travel is &quot;Travail&quot;",
+        "question": "The French word to travel is Travail",
         "correct_answer": "False",
         "options": [
           "True",
@@ -75,7 +75,7 @@
       },
       {
         "category": "Entertainment: Video Games",
-        "question": "&quot;Gimmick!&quot; is a Japanese Famicom game that uses a sound chip expansion in the cartridge. What is it called?",
+        "question": "Gimmick! is a Japanese Famicom game that uses a sound chip expansion in the cartridge. What is it called?",
         "correct_answer": "FME-7",
         "options": [
           "VRC7",
@@ -86,7 +86,7 @@
       },
       {
         "category": "Entertainment: Film",
-        "question": "Who directed the movie &quot;Alien&quot;?",
+        "question": "Who directed the movie Alien?",
         "correct_answer": "Ridley Scott",
         "options": [
             "Ridley Scott",

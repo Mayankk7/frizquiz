@@ -87,9 +87,9 @@ const Quiz = ({ score, setscore }) => {
                     })
                     }
                 </div>
-                <div class="card-footer d-flex flex-direction-column justify-space-evenly">
-                    {!answered && <button className='btn btn-secondary m-auto' onClick={() => { showans(); }}>Ok</button>}
-                    <button className='btn btn-secondary m-auto' onClick={() => {
+                <div class="card-footer d-flex flex-direction justify-space-between">
+                    {!answered && <button className='btn btn-w m-auto' onClick={() => { showans(); }}>Ok</button>}
+                    <button className='btn btn-w m-auto' onClick={() => {
                         select ? (nextques()) : (alert("Please Select an option"))
                     }}>Next</button>
                 </div>
