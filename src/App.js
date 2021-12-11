@@ -6,18 +6,17 @@ import Quiz from './components/Quiz';
 import Result from './components/Result';
 function App() {
   const [score,setscore] = useState(0);
-
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />}/>
+          <Route exact path="/" element={<Home/>}/>
         </Routes>
         <Routes>
-          <Route path="/quiz" element={<Quiz score={score} setscore={setscore}/>}/>
+          <Route exact path="/quiz" element={<Quiz score={score} setscore={setscore}/>}/>
         </Routes>
         <Routes>
-          <Route path="/result" element={<Result/>}/>
+          <Route exact path="/result" element={<Result/>}/>
         </Routes>
       </BrowserRouter>
     </div>
