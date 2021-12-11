@@ -8,9 +8,7 @@ const Quiz = ({ score, setscore }) => {
     const [select, setselect] = useState(false)
     const [index, setindex] = useState(100);
     const [answered, setanswered] = useState(false);
-
-    //intializing variable
-    var selectedoption = "";
+    const [selectedoption, setselectedoption] = useState("");
 
     //next button functionality
     const nextques = () => {
@@ -79,7 +77,7 @@ const Quiz = ({ score, setscore }) => {
                     {data[currentques].options.map((option, idx) => {
                         return (
                             <button className="btn outline mt-2" id={"btn" + idx} onClick={() => {
-                                selectedoption = option;
+                                setselectedoption(option);
                                 setindex(idx)
                             }}>{option}</button>
                         )
@@ -94,7 +92,7 @@ const Quiz = ({ score, setscore }) => {
                 </div>
             </div>
             <div className='footer mt-5'>
-                Double click to select an option and click on OK to check !<br/>All the best !
+                Click to select an option and click on OK to check !<br/>All the best !
             </div>
         </div>
     )
