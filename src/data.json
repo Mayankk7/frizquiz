@@ -1,110 +1,102 @@
-
- [
-      {
-        "category": "Vehicles",
-        "question": "Which animal features on the logo for Abarth, the motorsport division of Fiat?",
-        "correct_answer": "Scorpion",
-        "options": [
-          "Snake",
-          "Bull",
-          "Horse",
-          "Scorpion"
-        ]
-      },
-      {
-        "category": "Entertainment: Music",
-        "question": "Which member of the English band &quot;The xx released their solo album In Colour in 2015?",
-        "correct_answer": "Jamie xx",
-        "options": [
-          "Romy Madley Croft",
-          "Oliver Sim",
-          "Jamie xx",
-          "Baria Qureshi"
-        ]
-      },
-      {
-        "category": "History",
-        "question": "I disapprove of what you say, but I will defend to the death your right to say it is a quote from French philosopher Voltaire.",
-        "correct_answer": "False",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "category": "Entertainment: Music",
-        "question": "Which of these is NOT a song on The Beatles 1968 self titled album, also known as the White album?",
-        "correct_answer": "Being For The Benefit Of Mr. Kite!",
-        "options": [
-          "Why Dont We Do It in the Road?",
-          "Everybodys Got Something to Hide Except Me and My Monkey",
-          "The Continuing Story of Bungalow Bill",
-          "Being For The Benefit Of Mr. Kite!"
-        ]
-      },
-      {
-        "category": "General Knowledge",
-        "question": "What is the romanized Japanese word for university?",
-        "correct_answer": "Daigaku",
-        "options": [
-          "Toshokan",
-          "Jimusho",
-          "Daigaku",
-          "Shokudou"
-        ]
-      },
-      {
-        "category": "General Knowledge",
-        "question": "The French word to travel is Travail",
-        "correct_answer": "False",
-        "options": [
-          "True",
-          "False"
-        ]
-      },
-      {
-        "category": "Entertainment: Video Games",
-        "question": "The creator of the Touhou Project series is:",
-        "correct_answer": "ZUN",
-        "options": [
-          "SUN",
-          "RUN",
-          "ZUN",
-          "PUN"
-        ]
-      },
-      {
-        "category": "Entertainment: Video Games",
-        "question": "Gimmick! is a Japanese Famicom game that uses a sound chip expansion in the cartridge. What is it called?",
-        "correct_answer": "FME-7",
-        "options": [
-          "VRC7",
-          "VRC6",
-          "MMC5",
-          "FME-7"
-        ]
-      },
-      {
-        "category": "Entertainment: Film",
-        "question": "Who directed the movie Alien?",
-        "correct_answer": "Ridley Scott",
-        "options": [
-            "Ridley Scott",
-          "Christopher Nolan",
-          "Michael Bay",
-          "James Cameron"
-        ]
-      },
-      {
-        "category": "Entertainment: Japanese Anime & Manga",
-        "question": "What colour hair does the main character of the Yu-Gi-Oh! original anime series have?",
-        "correct_answer": "Red, black and yellow",
-        "options": [
-          "Red, yellow and green",
-          "Red, black and green",
-          "Red, black and yellow",
-          "Red, purple and blue"
-        ]
-      }
+[
+  {
+    "question": "In golf, what name is given to a hole score of two under par?",
+    "correct_answer": "Eagle",
+    "options": [
+      "Birdie",
+      "Bogey",
+      "Albatross",
+      "Eagle"
     ]
-
+  },
+  {
+    "question": "In what sport is a shuttlecock used?",
+    "correct_answer": "Badminton",
+    "options": [
+      "Badminton",
+      "Table Tennis",
+      "Rugby",
+      "Cricket"
+    ]
+  },
+  {
+    "question": "In baseball, how many fouls are an out?",
+    "correct_answer": "0",
+    "options": [
+      "5",
+      "3",
+      "2",
+      "0"
+    ]
+  },
+  {
+    "question": "Which country has hosted the 2018 FIFA World Cup?",
+    "correct_answer": "Russia",
+    "options": [
+      "Russia",
+      "Germany",
+      "United States",
+      "Saudi Arabia"
+    ]
+  },
+  {
+    "question": "This Canadian television sportscaster is known for his Hockey Night in Canada role, a commentary show during hockey games.",
+    "correct_answer": "Don Cherry",
+    "options": [
+      "Don McKellar",
+      "Don Taylor ",
+      "Don Cherry",
+      "Donald Sutherland"
+    ]
+  },
+  {
+    "question": "Which boxer was banned for taking a bite out of Evander Holyfields ear in 1997?",
+    "correct_answer": "Mike Tyson",
+    "options": [
+      "Mike Tyson",
+      "Roy Jones Jr.",
+      "Evander Holyfield",
+      "Lennox Lewis"
+    ]
+  },
+  {
+    "question": "What team did England beat to win in the 1966 World Cup final?",
+    "correct_answer": "West Germany",
+    "options": [
+      "Soviet Union",
+      "Portugal",
+      "West Germany",
+      "Brazil"
+    ]
+  },
+  {
+    "question": "Who is often called the Maestro in the mens tennis circuit?",
+    "correct_answer": "Roger Federer",
+    "options": [
+      "Roger Federer",
+      "Bill Tilden",
+      "Boris Becker",
+      "Pete Sampras"
+    ]
+  },
+  {
+    "question": "The Los Angeles Dodgers were originally from what U.S. city?",
+    "correct_answer": "Brooklyn",
+    "options": [
+      "Las Vegas",
+      "Boston",
+      "Seattle",
+      "Brooklyn"
+    ]
+  },
+  {
+    "question": "Who won the UEFA Champions League in 2016?",
+    "correct_answer": "Real Madrid C.F.",
+    "options": [
+      "FC Bayern Munich",
+      "Real Madrid C.F.",
+      "Atletico Madrid",
+      "Manchester City F.C."
+    ]
+  }
+]

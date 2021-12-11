@@ -1,17 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@1,800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 .App {
   text-align: center;
 }
 
+.heading{
+  font-family: 'Source Sans 3', sans-serif;
+  margin-top:20vh!important;
+}
 body{
   background: url(./bg.jpg);
   height:120vh;
   background-size: cover;
   background-position: fixed;
   background-repeat: no-repeat;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1{
@@ -80,43 +83,19 @@ input:focus{
   outline:none!important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
 .head{
   font-family: 'Source Sans 3', sans-serif;
+  font-weight: 800;
+  text-decoration: italic;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer{
+  color:white;
+  font-family: 'Source Sans 3', sans-serif;
 }
 
 @media (max-width:670px) {
   .card-header{
     font-size:1rem!important;
   }  
-  
 }

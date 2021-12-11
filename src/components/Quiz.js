@@ -70,7 +70,7 @@ const Quiz = ({ score, setscore }) => {
 
         <div>
             <div className='container mt-5'>
-                <h1>Quiz App</h1>
+                <h1 className='head'>FRIZQUIZ</h1>
             </div>
             <div class="card text-center w-50 m-auto mt-5 ">
                 <div class="card-header h-50">
@@ -88,11 +88,14 @@ const Quiz = ({ score, setscore }) => {
                     }
                 </div>
                 <div class="card-footer d-flex flex-direction justify-space-between">
-                    {!answered && <button className='btn btn-w m-auto' onClick={() => { showans(); }}>Ok</button>}
+                    {!answered && <button className='btn btn-w m-auto' onClick={() =>showans() }>Ok</button>}
                     <button className='btn btn-w m-auto' onClick={() => {
                         select ? (nextques()) : (alert("Please Select an option"))
                     }}>Next</button>
                 </div>
+            </div>
+            <div className='footer mt-5'>
+                Double click to select an option and click on OK to check !<br/>All the best !
             </div>
         </div>
     )
