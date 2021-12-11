@@ -1,5 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+
 .App {
   text-align: center;
+}
+
+body{
+  background: url(./bg.png);
+  height:100vh;
+  background-size: cover;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  overflow:hidden;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+  font-size: 4rem!important;
+  color:white!important;
+}
+
+.card-header{
+  font-size:1.5rem!important;
+  color:white;
+}
+
+.card{
+  background:  #9FCECE;
+  border:2px solid black!important;
+  height:50vh!important;
+}
+
+.card-body{
+  display: flex!important;
+  flex-direction: column!important;
+  justify-content: space-evenly!important;
+}
+
+button{
+  outline:none!important;
+  color:black!important;
+  background:white!important;
+
 }
 
 .App-logo {
@@ -35,4 +76,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@media (max-width:670px) {
+  .card-header{
+    font-size:1rem!important;
+  }  
+  
 }

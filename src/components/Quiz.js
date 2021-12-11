@@ -43,30 +43,33 @@ const Quiz = () => {
           return;
       }
       setselect(true);
-      const id =document.getElementById("btn"+`${index}`)
       if(selectedoption==data[currentques].correct_answer){
         setcorrect(true);
+        alert("Correct Answer");
         console.log("Correct");
-        id.classList.toggle('alert-success');
+
       }else{
           setcorrect(false)
+          alert("Incorrect Answer");
           console.log("Incorrect Selection");
-          id.classList.add('alert-danger');
+
       }
     }
   
     return (
 
         <div>
+        <div className='container mt-5'>
             <h1>Quiz App</h1>
-      <div class="card text-center">
-        <div class="card-header">
+        </div>
+      <div class="card text-center w-50 m-auto mt-5 ">
+        <div class="card-header h-50">
           {data[currentques].question}
         </div>
-        <div class="card-body">
+        <div class="card-body ">
           {data[currentques].options.map((option,idx) => {
             return (
-              <button className="btn" id={"btn"+`${idx}`} onClick={(e) => {
+              <button className="btn mt-2 btn-outline-success" id={"btn"+`${idx}`} onClick={(e) => {
                 selectedoption=option;
                 index=idx;
               }}>{option}</button>
@@ -74,10 +77,10 @@ const Quiz = () => {
           })
           }
         </div>
-        <div class="card-footer text-muted">
-          <button className='btn btn-dark' onClick={() => {prevques(); setcorrect(false);}}>Prev</button>
-          <button className='btn btn-dark mr-5' onClick={() => {showans(); }}>Ok</button>
-          <button className='btn btn-dark' onClick={() => {
+        <div class="card-footer d-flex justify-space-between">
+          <button className='btn btn-secondary m-auto' onClick={() => {prevques(); setcorrect(false);}}>Prev</button>
+          <button className='btn btn-secondary m-auto' onClick={() => {showans(); }}>Ok</button>
+          <button className='btn btn-secondary m-auto' onClick={() => {
               select ? (nextques()) : (alert("Please Select an option"))
           }}>Next</button>
         </div>
