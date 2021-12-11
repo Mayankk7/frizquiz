@@ -3,7 +3,7 @@ import data from "../data.json";
 const Quiz = () => {
     
     const [currentques, setcurrentques] = useState(0);
-    const [selectedoption, setselectedoption] = useState('');
+    var selectedoption = "";
     const nextques = () => {
       if (currentques == 9) {
         console.log("Quiz Ended");
@@ -31,6 +31,11 @@ const Quiz = () => {
   
     const showans = () => {
       console.log(selectedoption);
+      if(selectedoption==data[currentques].correct_answer){
+        console.log("Correct");
+      }else{
+          console.log("Incorrect Selection");
+      }
     }
   
     return (
@@ -42,11 +47,10 @@ const Quiz = () => {
           {data[currentques].question}
         </div>
         <div class="card-body">
-          {data[currentques].options.map((option) => {
+          {data[currentques].options.map((option,idx) => {
             return (
               <button className='btn' onClick={(e) => {
-                const selection = e.target.value;
-                setselectedoption(selection);
+                selectedoption=option;
               }}>{option}</button>
             )
           })
