@@ -1,5 +1,15 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import data from "../data.json";
+import Swal from 'sweetalert2';
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
+AOS.init(
+    {
+        duration:1000
+    }
+);
+
 const Quiz = ({ score, setscore }) => {
 
     //intializing states
@@ -32,7 +42,7 @@ const Quiz = ({ score, setscore }) => {
 
         //If no option is selected
         if (index === 1000) {
-            alert("Please Select an option");
+            Swal.fire("OOPS","Please Select Any Option", "question")
             return;
         }
         
@@ -62,6 +72,9 @@ const Quiz = ({ score, setscore }) => {
         clearInterval(next);
     }
 
+    useEffect(()=>{
+
+    },[currentques])
 
     return (
 
@@ -69,7 +82,7 @@ const Quiz = ({ score, setscore }) => {
             <div className='container mt-5'>
                 <h1 className='head'>FRIZQUIZ</h1>
             </div>
-            <div class="card text-center w-50 m-auto mt-5 ">
+            <div class="card text-center w-50 m-auto mt-5 " data-aos="flip-left" style={{transition:"0.5s"}}>
                 <div class="card-header h-50">
                     {data[currentques].question}
                 </div>
@@ -87,7 +100,7 @@ const Quiz = ({ score, setscore }) => {
                 <div class="card-footer d-flex flex-direction justify-space-between">
                     {!answered && <button className='btn btn-w m-auto' onClick={() =>showans() }>Ok</button>}
                     <button className='btn btn-w m-auto' onClick={() => {
-                        select ? (nextques()) : (alert("Please Select an option"))
+                        select ? (nextques()) : (Swal.fire("OOPS","Please Select Any Option", "question"))
                     }}>Next</button>
                 </div>
             </div>

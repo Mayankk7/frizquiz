@@ -11,7 +11,7 @@ const Result = () => {
                 <h1>{scored}</h1>
             </div>
             <div className='mt-5'>
-                <button className='btn' onClick={()=>{window.location.href="/quiz"}}>Home</button>
+                <button className='btn' onClick={()=>{window.location.href="/home"}}>Home</button>
             </div>
             </div>
         </div>

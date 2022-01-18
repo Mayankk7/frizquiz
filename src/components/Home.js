@@ -12,7 +12,7 @@ const Home = () => {
             <div className='container mt-5 top'>
             <h1 className='head'>FRIZQUIZ</h1>
             <div className='mt-5'>
-            <input type="text" className="mx-3" placeholder='Name' onChange={(e)=> {setname(e.target.value);}}/>
+            <input type="text" className="mx-3" style={{borderRadius:"5px"}} placeholder='Name' onChange={(e)=> {setname(e.target.value);}}/>
             <button className='btn mt-2' onClick={() => {startquiz()}}>Start!</button>
             </div> 
             </div>
